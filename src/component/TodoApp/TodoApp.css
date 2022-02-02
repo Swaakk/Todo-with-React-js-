@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: #056670;
+    font-family: sans-serif;
+}
+
+
+.todo-container{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid silver;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-section{
+    
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #00000066;
+}
+
+ul{ 
+    text-align: left;
+    padding: 0;
+    
+}
+
+ul li{
+    
+    color: #111;
+    list-style: none;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+    box-shadow: 0 4px 6px #00000066;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
